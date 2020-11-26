@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+nav {
+    background-color: white;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 0px 2px #aaaaaa;
+
+}
+
+nav h4 {
+    margin: auto;
+    font-size: 30px;
+    color: rgb(99, 99, 209);
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    font-size: 20px;
+    color: #000;
+    
+}
+nav li{
+    text-decoration: none;
+}
+
+.container{
+    background-color: #000;
+    color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+#value{
+    font-size: 50px;
+}
+.img-fluid{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+#job{
+    color: rgb(115, 117, 255);
+    font-size: 25px;
+}
+#info{
+    font-size: 16px;
+}
+#author{
+    font-size: 20px;
+}
+.random-btn{
+    color: white;
+    background-color: blue;
+    border-style: solid;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.fas{
+    /* background-color: blue; */
+    color: black;
+    padding: 5px;
+    font-size: larger;
+}
