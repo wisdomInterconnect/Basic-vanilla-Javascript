@@ -10,16 +10,19 @@ nav {
     background-color: white;
     padding: 1px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 0px 2px #aaaaaa;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
 
 }
 
-nav h4 {
-    margin: auto;
+h1 {
+    margin-left: 30px;
     font-size: 30px;
-    color: rgb(99, 99, 209);
+    color: rgb(10, 10, 10);
+}
+.header1{
+    color: aliceblue;
 }
 nav a{
     text-decoration: none;
@@ -30,6 +33,7 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     list-style: none;
+    grid-gap: 4em;
     font-size: 20px;
     color: #000;
     
@@ -90,4 +94,34 @@ nav li{
     color: black;
     padding: 5px;
     font-size: larger;
+}
+@media(max-width:600px){
+  nav {
+      padding: 0px;
+      /* grid-gap:1em; */
+      /* grid-auto-rows: minmax(100px, auto) */
+      /* margin-bottom: 20px;
+      box-shadow: 0px 0px 0px 2px #aaaaaa; */
+
+  }
+  nav ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      list-style: none;
+      font-size: 10px;
+      color: #000;
+      grid-gap: 2em;
+
+  }
+  .img-fluid {
+      width: 190px;
+      height: 200px;
+      border-radius: 50%;
+      /* object-fit: cover; */
+  }
+  .btn{
+      margin-bottom: 10px;
+  }
+
+
 }
